@@ -7,7 +7,7 @@
         .cont {
             height: 100vh;
             width: 100%;
-            background-image: url(image.png);
+            background-image: url(images/image.png);
             background-size: cover;
             background-position: center;
         }
