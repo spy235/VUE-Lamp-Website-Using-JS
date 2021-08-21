@@ -1,104 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-      <!--- here i used height and width beceause it will nou display when thier is  no content in cont class so we use the width property-->
+    <!--- here i used height and width beceause it will nou display when thier is  no content in cont class so we use the width property-->
 
-            <!--cover property : means Scales the image as large as possible within its container without cropping or stretching the image-->
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-                    }
-          
-        .cont
-        {
-            height: 100vh;
-            width: 100%;
-            background-image: url(image.png);
-            background-size: cover;
-            background-position: center;
-        }
-        
-        li{
-            text-decoration: none;
-            list-style:none;
-                    }
-                     ul li {
-                        display: inline-block;
-                        position:relative;
-                        left: 749px;
-                        margin: 0px;
-                        padding: 24px;
-                        text-decoration: none;
-                        text-align: left;
-                        
-                    }
-                    a{
-                        text-decoration: none;
-                        color: #5f5f5f;
-                    }
-                    .logo{
-                        position:absolute;
-                        left: 23px;
-                        top: 23px;
-                        padding: 2px;
-                        animation-name: hover;
-                        animation-duration:1s;
-                        animation-iteration-count: infinite;
-                        animation-direction:alternate-reverse;
-                    
-                        cursor: pointer;
-                    }
-                    @keyframes hover {
-                        0%{
-                            padding:2px
-                        }
-                        100%
-                        {
-                            padding: 10px;
-                        }
-                        
-                    }
-                    .left-content{
-                        color: rgb(179, 175, 175);
-                        position: relative;
-                        padding: 42px;
-                        top: 110px;
-                        font-size: 36px;
-                        white-space: nowrap;
-
-
-                    }
-                    .right-content{
-                        float: right;
-                        position: relative;
-                        left: -223px;
-                        top: -150px;
-                        display: inline;
-                    }
-                    .play{
-                        padding: 2px;
-                        width: 100px;
-                    }
-                    .clickhere{
-                        display: inline;
-                        padding: 23px;
-                        position: relative;
-                        top: -65px;
-                        bottom: 23px;
-                        left: 27px;
-                        color: rgb(177, 157, 157);
-
-                    }
-                    
-
-        
-    </style>
+    <!--cover property : means Scales the image as large as possible within its container without cropping or stretching the image-->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="cont">
         <div class="nav">
@@ -130,7 +43,7 @@
                 </li>
             </ul>
             <div class="logo">
-                <img src="logo.png" >
+                <img src="logo.png">
             </div>
 
         </div>
@@ -139,14 +52,15 @@
 
         </div>
         <div class="right-content">
-            <p class ="clickhere">
+            <p class="clickhere">
                 Click Here To Play
 
             </p>
-                <img src="play.png" id = "icon">
+            <img src="play.png" id="icon">
         </div>
 
     </div>
-    
+
 </body>
+
 </html>
