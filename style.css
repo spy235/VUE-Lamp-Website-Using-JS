@@ -1,134 +1,131 @@
-* {
-    margin: 0;
+*{
     padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
 }
-
-.container {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    height: 100vh;
-    width: 100vw;
+.background{
+    background-color:rgb(236, 236, 16);
+    background-position: center;
+    max-width: 100%;
     background-size: cover;
-    animation-name: outer;
-    animation-iteration-count: infinite;
+    height: 139vh;
+    
 }
-
-.card {
-    width: 575px;
-    height: 298px;
-    position: relative;
-    top: -64px;
-    left: -341px;
-    border-radius: 31px;
-    cursor: pointer;
-}
-
-.cardinner {
-    width: 575px;
-    height: 298px;
-    position: relative;
-    top: 140px;
-    left: 397px;
-
-    border-radius: 31px;
-}
-
-.front {
-    width: 575px;
-    height: 298px;
-    position: absolute;
-    top: 74px;
-    left: 397px;
-    background-image: linear-gradient(45deg, #0045c7, #ff2c7d);
-    border-radius: 31px;
-    z-index: 1;
-}
-
-.chip {
-    padding: 0px;
-    width: 58px;
-    position: relative;
-    left: 25px;
-    top: 21px;
-    animation-name: pulse;
-    animation-duration: 0.2s;
-    animation-iteration-count: infinite;
-
-
+.container{
+    width: 61vh;
 
 }
-
-.visa {
-    width: 73px;
-    position: relative;
-    left: 417px;
-    top: -1px;
+.box{
+    position:absolute;
+background-color: wheat;
+    width: 125vh;
+    height: 75vh;
+    right: 40vh;
+    top: 15vh ;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
 }
 
-.map {
-    width: 500px;
-    position: absolute;
-    top: 6px;
-    left: 12px;
-    z-index: -1;
-}
-
-.card-no {
-    font-family: 'Raleway', sans-serif;
-    color: burlywood;
-    font-size: 34px;
-    position: absolute;
-    left: 45px;
+.dp{
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    margin-top: 64px;
-    letter-spacing: -1px;
-    word-spacing: 40px;
+    position:absolute;
+    left: 10vh;
+    top: 19vh;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    width: 42vh;
+
 
 }
-
-.cardholder {
-    font-family: 'Raleway', sans-serif;
-
-    position: absolute;
-    top: 207px;
-    left: 25px;
-    display: inline;
-    word-spacing: 271px;
-    color: burlywood;
+.red{
+    background-color:rgb(236, 236, 16);
+    width: 30vh;
+    height: 75vh;
+    color: black;
+}
+.gith{
+    position:absolute;
+    left: 2vh;
+    top:2vh;
+    color: black;
 
 }
-
-.name {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    left: 27px;
-    margin-top: 169px;
-    word-spacing: 390px;
-    color: wheat;
-}
-
-@keyframes pulse {
-    0% {
-        padding: 0;
-    }
-
-    100% {
-        padding: 1px;
-    }
+.insta{
+    position:absolute;
+    left: 40vh;
+    top:2vh;
+    color: black;
 
 }
+.cp{
+    position:absolute;
+    left: 75vh;
+    top:2vh;
+    color: black;
 
-@keyframes outer {
-    0% {
-        width: 100vw;
+}
+.reddit{
+    position:absolute;
+    left: 110vh;
+    top:2vh;
+}
+.redd{
+    width: 12vh;
+}
+.reddit:hover{
+    padding: 1vh;
 
-    }
+}
+.abt{
+    position:absolute;
+    right: 3vh;
+    top: 40vh;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 5vh;
+  
+}
+.name{
+    position:absolute;
+    right: 15vh;
+    top: 20vh;
+    font-family: 'Jua', sans-serif;
+    font-size: 6vh;
+    text-decoration: none;
+}
+ h1:hover{
+    color: red;
+}
+ .gith :hover{
+    color: red;
+}
+.cp :hover{
+    color: red;
+}
+.redd :hover{
+    color: red;
+    padding: 2vh;
+}
+.insta :hover{
+    color: red;
+}
+.gif{
 
-    100% {
-        width: 50vw;
-    }
+    width: 50vh;
+    position:absolute;
+    top: 23vh;
+    left: 0vh;
+}
+.graph{
+    width: 40vh;
+    position:absolute;
+    top: 26vh;
+    right: 0vh;
+}
+.hand{
+    width: 30vh;
+    position:absolute;
+    top: 75vh;
+    right: 135vh;
+}
+.dp:hover{
+    padding: 2vh;
 
 }

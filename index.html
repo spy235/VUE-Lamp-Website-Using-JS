@@ -1,200 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+<!--
 
-    <!--<style>
-        * {
-            margin: 0;
+    <style>
+        
+        *{
             padding: 0;
-            font-family: 'Josefin Sans', sans-serif;
+            margin: 0;
         }
-
-        .container {
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            height: 100vh;
-            width: 100vw;
+        .background{
+            background-color:rgb(236, 236, 16);
+            background-position: center;
+            max-width: 100%;
             background-size: cover;
-            animation-name: outer;
-            animation-iteration-count: infinite;
+            height: 139vh;
+            
         }
-
-        .card {
-            width: 575px;
-            height: 298px;
-            position: relative;
-            top: -64px;
-            left: -341px;
-            border-radius: 31px;
-            cursor: pointer;
+        .container{
+            width: 61vh;
+            
         }
-
-        .cardinner {
-            width: 575px;
-            height: 298px;
-            position: relative;
-            top: 140px;
-            left: 397px;
-
-            border-radius: 31px;
+        .box{
+            position:absolute;
+            background-color: wheat;
+            width: 125vh;
+            height: 75vh;
+            right: 40vh;
+            top: 15vh ;
+            box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
         }
-
-        .front {
-            width: 575px;
-            height: 298px;
-            position: absolute;
-            top: 74px;
-            left: 397px;
-            background-image: linear-gradient(45deg, #0045c7, #ff2c7d);
-            border-radius: 31px;
-            z-index: 1;
-        }
-
-        .chip {
-            padding: 0px;
-            width: 58px;
-            position: relative;
-            left: 25px;
-            top: 21px;
-            animation-name: pulse;
-            animation-duration: 0.2s;
-            animation-iteration-count: infinite;
-
-
-
-        }
-
-        .visa {
-            width: 73px;
-            position: relative;
-            left: 417px;
-            top: -1px;
-        }
-
-        .map {
-            width: 500px;
-            position: absolute;
-            top: 6px;
-            left: 12px;
-            z-index: -1;
-        }
-
-        .card-no {
-            font-family: 'Raleway', sans-serif;
-            color: burlywood;
-            font-size: 34px;
-            position: absolute;
-            left: 45px;
+        
+        .dp{
+            padding: 0;
             display: flex;
-            justify-content: space-between;
-            margin-top: 64px;
-            letter-spacing: -1px;
-            word-spacing: 40px;
-
+            position:absolute;
+            left: 10vh;
+            top: 19vh;
+            box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+            width: 42vh;
+            
+            
         }
-
-        .cardholder {
-            font-family: 'Raleway', sans-serif;
-
-            position: absolute;
-            top: 207px;
-            left: 25px;
-            display: inline;
-            word-spacing: 271px;
-            color: burlywood;
-
+        .red{
+            background-color:rgb(236, 236, 16);
+            width: 30vh;
+            height: 75vh;
+            color: black;
         }
-
-        .name {
-            font-family: 'Raleway', sans-serif;
-            position: absolute;
-            left: 27px;
-            margin-top: 169px;
-            word-spacing: 390px;
-            color: wheat;
+        .gith{
+            position:absolute;
+            left: 2vh;
+            top:2vh;
+            color: black;
+            
         }
-
-        @keyframes pulse {
-            0% {
-                padding: 0;
-            }
-
-            100% {
-                padding: 1px;
-            }
-
+        .insta{
+            position:absolute;
+            left: 40vh;
+            top:2vh;
+            color: black;
+            
         }
-
-        @keyframes outer {
-            0% {
-                width: 100vw;
-
-            }
-
-            100% {
-                width: 50vw;
-            }
-
+        .cp{
+            position:absolute;
+            left: 75vh;
+            top:2vh;
+            color: black;
+            
         }
-    </style>-->
+        .reddit{
+            position:absolute;
+            left: 110vh;
+            top:2vh;
+        }
+        .redd{
+            width: 12vh;
+        }
+        .reddit:hover{
+            padding: 1vh;
+            
+        }
+        .abt{
+            position:absolute;
+            right: 3vh;
+            top: 40vh;
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 5vh;
+            
+        }
+        .name{
+            position:absolute;
+            right: 15vh;
+            top: 20vh;
+            font-family: 'Jua', sans-serif;
+            font-size: 6vh;
+            text-decoration: none;
+        }
+        h1:hover{
+            color: red;
+        }
+        .gith :hover{
+            color: red;
+        }
+        .cp :hover{
+            color: red;
+        }
+        .redd :hover{
+            color: red;
+            padding: 2vh;
+        }
+        .insta :hover{
+            color: red;
+        }
+        .gif{
+            
+            width: 50vh;
+            position:absolute;
+            top: 23vh;
+            left: 0vh;
+        }
+        .graph{
+            width: 40vh;
+            position:absolute;
+            top: 26vh;
+            right: 0vh;
+        }
+        .hand{
+            width: 30vh;
+            position:absolute;
+            top: 75vh;
+            right: 135vh;
+        }
+        .dp:hover{
+            padding: 2vh;
+            
+        }
+    </style>
+ -->
 </head>
-
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="cardinner">
-                <div class="front">
-                    <img src="images/map.png" class="map">
-                    <div class="row">
-                        <a href="https://www.mastercard.co.in/en-in/personal/get-support/safety-and-security/chip.html">
-                            <img src="images/chip.png" class="chip">
+    <div class="background">
+        <div class="box">
+            <div class="red"></div>
+            <div class="container">
+                <a href="https://www.linkedin.com/mwlite/in/yashas-j-07837a207">
+                    <img class="dp" src="images/f9758151b717582c500f0dcc33beca4f.png"> </a>
+                    <div class="icons">
+                        <a  class ="gith"href="https://github.com/spy-byte">
+                            <i class="fa fa-github" style="font-size:10vh;">
+                            </i>
                         </a>
-                        <a href="https://indianvisaonline.gov.in/evisa/invalid_url.html">
-                            <img src="images/visa.png" class="visa">
+                        <a class="insta" href="https://www.instagram.com/s_py_235/">
+                            <i class="fa fa-instagram" style="font-size:10vh">
+                            </i>
                         </a>
-                    </div>
-                    <a href="https://numbersatm.com/">
-                        <div class="card-no">
+                        <a  class ="cp"href="https://codepen.io/spy-byte">
+                                <i class="fa fa-cube" aria-hidden="true" style="font-size:10vh"></i>
+                            </a>
+                            <a class="reddit" href="https://www.reddit.com/user/spy_a_g_l">
+                                <img class="redd" src="images/reddit.png" >
+                            </a>
+                            <div class ="abt">
+                                <p>
+                                    This Is My Portfolio<br>
+                                    Above Are My Social Media Handles
+                                </p>
+                            </div>
+                            <div class="name">
+                                <a href="https://www.linkedin.com/mwlite/in/yashas-j-07837a207">
 
-                            <p>2345
-                                0935
-                                5647
-                                5678</p>
-                        </div>
-                    </a>
-                    <div class="cardholder">
-                        <p>
-                            CARDHOLDER-NAME
-                            VALID-TILL
-                        </p>
+                                    <h1>Yashas J</h1>
+                                </a>
+                            </div>
+                        
                     </div>
-                    <div class="name">
-                        <h5>
-                            Yashas_J
-                            21/26
-                        </h5>
-                    </div>
-
-                </div>
-                <div class="back">
-                    <img src="images/map.png" class="map">
+                    
                 </div>
             </div>
-
-        </div>
-
+            <div class="gif">
+                <div style="width:100%;height:0;padding-bottom:94%;position:relative;"><iframe src="https://giphy.com/embed/4YCCY41GKzDuYeHnWW" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>  
+            </div>
+            <div class="graph">
+                <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/0qjoCMz8Z8jaLZ6Yal" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            </div>
+            <div class="hand">
+                <div style="width:100%;height:0;padding-bottom:124%;position:relative;"><iframe src="https://giphy.com/embed/BMPSCLh0SQxvGQ81uP" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            </div>
     </div>
-
+    
 </body>
-
 </html>
